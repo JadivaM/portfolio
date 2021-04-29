@@ -16,6 +16,7 @@ import heroImage14 from '../HeroImages/hero-image-14.jpg';
 import heroImage15 from '../HeroImages/hero-image-15.jpg';
 import heroImage16 from '../HeroImages/hero-image-16.jpg';
 import heroImage17 from '../HeroImages/hero-image-17.jpg';
+import Navbar from '../Navbar/Navbar';
 
 const HeroSection = () => {
 
@@ -34,9 +35,14 @@ useEffect(() => {
 }, [])
 
     return (
-        <div>
-            <img src={heroImage} alt="computer science and coding languages on a computer screen" className="home-page-hero-image"/>
-        </div>
+        <>
+            <div className="home-page-hero-image" style={{backgroundImage: 
+                `linear-gradient(to bottom, rgba(97, 96, 96, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(${heroImage})`
+                }}>
+            <Navbar />
+            </div>
+        </>
     )
 }
 
