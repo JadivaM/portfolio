@@ -37,7 +37,7 @@ useEffect(() => {
     return (
         <>
             <div className="home-page-hero-image" style={{backgroundImage: 
-                `linear-gradient(to bottom, rgba(97, 96, 96, 0.5), rgba(0, 0, 0, 0.5)), 
+                `linear-gradient(to bottom, rgba(97, 96, 96, 0.8), rgba(0, 0, 0, 0.2)), 
                 url(${heroImage})`
                 }}>
             <Navbar />
