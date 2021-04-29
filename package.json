@@ -13,6 +13,7 @@
     "pretty-quick": "^3.1.0"
   },
   "dependencies": {
+    "concurrently": "^6.0.2",
     "express": "^4.17.1",
     "mongoose": "^5.12.7",
     "morgan": "^1.10.0"
@@ -24,9 +25,12 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "server": "nodemon server.js",
+		"client": "cd client && yarn run start",
+		"dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "db:reset": "node db/seeds.js",
     "prettier": "prettier '*/**/*.js' --write",
     "heroku-postbuild": "cd client && yarn && yarn run build"
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
