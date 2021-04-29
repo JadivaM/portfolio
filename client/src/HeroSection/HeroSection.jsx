@@ -17,7 +17,6 @@ import heroImage15 from '../HeroImages/hero-image-15.jpg';
 import heroImage16 from '../HeroImages/hero-image-16.jpg';
 import heroImage17 from '../HeroImages/hero-image-17.jpg';
 
-
 const HeroSection = () => {
 
 const [heroImage, setHeroImage] = useState()
@@ -36,7 +35,7 @@ useEffect(() => {
 
     return (
         <div>
-            <img src={heroImage} style={{width: 500, heigh: 500}}/>
+            <img src={heroImage} alt="computer science and coding languages on a computer screen" className="home-page-hero-image"/>
         </div>
     )
 }
