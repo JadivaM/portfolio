@@ -1,10 +1,38 @@
+@font-face {
+  font-family: 'PragmaticaMedium';
+  src: url(./Fonts/PragmaticaMedium.otf);
+}
 .body, html {
   padding: 0;
   margin: 0;
 }
 .home-page-hero-image {
-  width: 100vw;
   height: 80vh;
-  object-fit: cover;
-  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-container {
+  width: 40%;
+  margin-left: 12%;
+  padding-top: 1%;
+}
+
+.navbar-list-links {
+  list-style-type: none;
+  display: flex;
+  color: #fff;
+  font-family: 'PragmaticaMedium';
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.navbar-link {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navbar-link:hover {
+  border-bottom: #fff 2px solid;
+  padding-bottom: 1.5%;
 }
