@@ -14,6 +14,16 @@ const Navbar = () => {
                     About
                 </li>
             </ul>
+            <div className="right-navbar-buttons-container">
+                    <ul className="navbar-buttons-list">
+                    <li className="navbar-button navbar-underlined-text">
+                        LinkedIn
+                    </li>
+                    <li className="navbar-button navbar-white-button">
+                        <button>Github</button>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
