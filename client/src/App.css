@@ -45,27 +45,61 @@
 }
 
 .navbar-container {
-  width: 40%;
+  width: 100vw;
   margin-left: 13%;
   padding-top: 1%;
+  display: flex;
 }
 
 .navbar-list-links {
+  width: 40%;
   list-style-type: none;
-  display: flex;
   color: #fff;
   font-size: 14px;
   font-weight: bolder;
+  display: flex;
 }
 
-.navbar-link {
-  padding-left: 3%;
-  padding-right: 3%;
+.navbar-link, .navbar-button {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
-.navbar-link:hover {
+.navbar-link:hover, .navbar-underlined-text:hover {
   border-bottom: #fff 2px solid;
   padding-bottom: 1.5%;
+}
+
+.right-navbar-buttons-container {
+  width: 40%;
+}
+
+.navbar-buttons-list {
+  display: flex;
+  list-style-type: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 30%;
+}
+
+.navbar-white-button  {
+  width: 20%;
+}
+
+.navbar-white-button > button {
+  border: #fff 2px solid;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding-bottom: 2%;
+}
+
+.navbar-white-button:hover > button {
+  background-color: #fff;
+  color: #666666;
 }
 
 .dropdown-main-container {
