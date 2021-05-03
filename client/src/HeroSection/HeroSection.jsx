@@ -19,6 +19,7 @@ import heroImage17 from '../HeroImages/hero-image-17.jpg';
 import Navbar from '../Navbar/Navbar';
 import Searchbar from '../Searchbar/Searchbar';
 import TitleLogo from './TitleLogo';
+import BottomNav from '../Navbar/BottomNav';
 
 const HeroSection = () => {
 
@@ -45,6 +46,7 @@ useEffect(() => {
             <Navbar />
             <TitleLogo />
             <Searchbar />
+            <BottomNav />
             </div>
         </>
     )
