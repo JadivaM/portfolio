@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
 const Navbar = () => {
     return (
@@ -20,7 +21,8 @@ const Navbar = () => {
                         LinkedIn
                     </li>
                     <li className="navbar-button navbar-white-button">
-                        <button>Github</button>
+                        Github
+                        {/* <Button>Github</Button> */}
                     </li>
                 </ul>
             </div>
