@@ -15,11 +15,13 @@
   padding: 0;
   margin: 0;
   font-family: 'PragmaticaMedium';
+  overflow-x: hidden;
 }
 .home-page-hero-image {
   height: 80vh;
   background-size: cover;
   background-position: center;
+  background-color: #333;
 }
 
 .logo-title-container {
@@ -47,8 +49,9 @@
 .navbar-container {
   width: 100vw;
   margin-left: 13%;
-  padding-top: 1%;
+  padding-top: 2%;
   display: flex;
+  white-space: nowrap;
 }
 
 .navbar-list-links {
@@ -58,6 +61,7 @@
   font-size: 14px;
   font-weight: bolder;
   display: flex;
+  white-space: nowrap;
 }
 
 .navbar-link, .navbar-button {
@@ -68,6 +72,7 @@
 .navbar-link:hover, .navbar-underlined-text:hover {
   border-bottom: #fff 2px solid;
   padding-bottom: 1.5%;
+  cursor: pointer;
 }
 
 .right-navbar-buttons-container {
@@ -83,23 +88,25 @@
   margin-left: 30%;
 }
 
-.navbar-white-button  {
-  width: 20%;
-}
-
-.navbar-white-button > button {
+.navbar-white-button {
   border: #fff 2px solid;
   background-color: transparent;
   color: #fff;
   font-size: 14px;
   font-weight: bolder;
   border-radius: 5px;
-  padding-bottom: 2%;
+  padding: 7px 24px 8px;
+  margin: -8px 0 0 15px;
+  display: inline-block;
 }
 
-.navbar-white-button:hover > button {
+.navbar-white-button:hover{
+  display: inline-flex;
+  align-items: center;
   background-color: #fff;
   color: #666666;
+  transition: 0.6s;
+  cursor: pointer;
 }
 
 .dropdown-main-container {
@@ -139,8 +146,32 @@
 
 .dropdown-second-container {
   width: 33vw;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+}
+
+.dropdown-search-icon-container {
+  display: inline;
+  height: 100%;
+}
+
+.dropdown-search-icon-button {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #BE2021;
+  border: none;
+  width: 64px;
+  height: 100%;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.dropdown-search-icon{
+  color: #fff;
 }
 
 .dropdown-content {
@@ -168,4 +199,38 @@
 
 .searchbar-placeholder {  
   color: #757575;
+}
+
+
+.bottom-nav-list-items {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.bottom-nav-link {
+  padding: 0 25px;
+}
+
+.bottom-nav-icon {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.project-card-title {
+  color: #0173BB;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.project-card-category, .project-card-location {
+  font-family: 'Pragmatica-Light';
+  font-weight: 800;
+  font-size: 14px;
+}
+.project-card-stars {
+  width: 102px;
+  height: 18px;
 }
