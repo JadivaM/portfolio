@@ -234,3 +234,10 @@
   width: 102px;
   height: 18px;
 }
+
+.recent-activity-text {
+  color: rgb(211, 36, 35);
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-align: center;
+}
