@@ -1,5 +1,4 @@
 import React from 'react';
-// import Divider from '@material-ui/core/Divider';
 import SearchIcon from '@material-ui/icons/Search';
 
 const Searchbar = () => {
@@ -12,7 +11,6 @@ const Searchbar = () => {
                 <p>Hello World!</p>
                 </div>
                 </div>
-                {/* <Divider style={{height: 10, color: '#fff'}} orientation="vertical" /> */}
                 <div className="dropdown-second-container">
                 <span className="dropdown-second-container-text">Near</span>
                 <span className="dropdown">Miami, FL</span>

@@ -140,12 +140,12 @@
 .dropdown-first-container {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 33vw;
+  width: 30vw;
   position: relative;
 }
 
 .dropdown-second-container {
-  width: 33vw;
+  width: 30vw;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   position: relative;
@@ -240,4 +240,14 @@
   font-weight: bolder;
   font-size: 1.3rem;
   text-align: center;
+}
+
+.dropdown-first-container::after {
+  content: '';
+  position: absolute;
+  background-color: #ccc;
+  width: 1px;
+  top: 8px;
+  right: 0;
+  bottom: 8px;
 }
