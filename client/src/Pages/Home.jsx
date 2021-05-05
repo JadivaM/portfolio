@@ -9,6 +9,7 @@ const Home = () => {
             <HeroSection />
         </div>
         <div>
+            <p className="recent-activity-text">Recent Activity</p>
             <ProjectCards />
         </div>
         </>

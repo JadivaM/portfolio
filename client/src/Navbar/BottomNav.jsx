@@ -4,6 +4,7 @@ import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import WorkIcon from '@material-ui/icons/Work';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import GroupAddIcon from '@material-ui/icons/GroupAdd';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 const BottomNav = () => {
     return (
@@ -25,9 +26,10 @@ const BottomNav = () => {
                 <QuestionAnswerIcon fontSize="small" className="bottom-nav-icon" />
                     Contact
                 </li>
-                <li className="bottom-nav-link">
+                <li className="bottom-nav-link connect-dropdown-nav">
                 <GroupAddIcon fontSize="small" className="bottom-nav-icon" />
                     Connect
+                <ArrowDropDownIcon fontSize="small" className="bottom-nav-icon"/>
                 </li>
             </ul>
         </div>

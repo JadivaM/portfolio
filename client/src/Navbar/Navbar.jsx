@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -17,13 +17,16 @@ const Navbar = () => {
             </ul>
             <div className="right-navbar-buttons-container">
                     <ul className="navbar-buttons-list">
+                    <Link to={{ pathname: "https://www.linkedin.com/in/jadivamontealegre/"}} target="_blank" style={{textDecoration: 'none', color: "#fff"}}>
                     <li className="navbar-button navbar-underlined-text">
                         LinkedIn
                     </li>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/JadivaM"}} target="_blank" style={{textDecoration: 'none', color: "#fff"}}>
                     <li className="navbar-button navbar-white-button">
                         Github
-                        {/* <Button>Github</Button> */}
                     </li>
+                    </Link>
                 </ul>
             </div>
         </div>

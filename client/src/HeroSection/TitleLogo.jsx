@@ -5,7 +5,7 @@ const TitleLogo = () => {
     return (
         <div className="logo-title-container">
             <p className="logo-title">Jadiva</p>
-            <img className="logo" src={yelpLogo}/>
+            <img className="logo" src={yelpLogo} alt="logo of name Jadiva"/>
         </div>
     )
 }
