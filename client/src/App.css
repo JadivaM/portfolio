@@ -71,8 +71,12 @@
 
 .navbar-link:hover, .navbar-underlined-text:hover {
   border-bottom: #fff 2px solid;
-  padding-bottom: 1.5%;
+  padding-bottom: 5px;
   cursor: pointer;
+}
+
+.navbar-underlined-text {
+  margin-right: 10px;
 }
 
 .right-navbar-buttons-container {
