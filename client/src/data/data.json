@@ -5,8 +5,7 @@
         "desc":
             "Recipes",
         "photo": "",
-        "location": "Miami, FL",
-        "link": "https://second-appinion.herokuapp.com/form"
+        "location": "Miami, FL"
     },
     {
         "id": "2",
@@ -20,7 +19,8 @@
         "name": "Second Appinion",
         "desc": "Dentistry",
         "photo": "",
-        "location": "Miami, FL"
+        "location": "Miami, FL",
+        "link": "https://second-appinion.herokuapp.com/"
     },
     {
         "id": "4",
