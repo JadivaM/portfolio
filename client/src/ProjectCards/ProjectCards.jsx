@@ -7,10 +7,10 @@ import Projects from '../data/data.json';
 
 const ProjectCards = () => {
     return (
-        <div>
+        <div className="home-project-cards-container">
   {Projects.map((project) =>  {
     return (
-      <Card variant="outlined">
+      <Card variant="outlined" className="project-cards">
       <CardContent>
         <p className="project-card-title">
           {project.name}

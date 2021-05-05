@@ -219,16 +219,34 @@
   margin-right: 3px;
 }
 
+.home-project-cards-container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.project-cards {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
 .project-card-title {
   color: #0173BB;
   font-weight: 800;
   font-size: 16px;
+  margin-block: 0;
+  line-height: 2;
 }
 
 .project-card-category, .project-card-location {
   font-family: 'Pragmatica-Light';
   font-weight: 800;
   font-size: 14px;
+  margin-block: 0;
+  font-weight: 800;
 }
 .project-card-stars {
   width: 102px;
