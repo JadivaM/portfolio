@@ -6,24 +6,24 @@ import yelpstars from '../YelpImages/yelp-stars.png';
 import Projects from '../data/data.json';
 import {Link} from 'react-router-dom';
 
-const ProjectCards = () => {
+const AllProjectCards = () => {
 
 
     return (
         <div className="home-project-cards-container">
   {Projects.map((project) =>  {
     return (
-      <Card variant="outlined" className="project-cards">
+      <Card variant="outlined" className="all-project-cards">
       <CardContent>
       <Link
       to={{pathname: `${project.link}`}} target="_blank" style={{textDecoration: 'none'}}>
-        <p className="project-card-title">
+        <p className="all-project-card-title">
           {project.name}
         </p>
       </Link>
-        <img className="project-card-stars" src={yelpstars} alt="red stars rating the project"/>
-         <p className="project-card-category">{project.desc}</p>
-        <p className="project-card-location">
+        <img className="all-project-card-stars" src={yelpstars} alt="red stars rating the project"/>
+         <p className="all-project-card-category">{project.desc}</p>
+        <p className="all-project-card-location">
          {project.location}
         </p>
       </CardContent>
@@ -35,4 +35,4 @@ const ProjectCards = () => {
     )
 }
 
-export default ProjectCards
+export default AllProjectCards;
