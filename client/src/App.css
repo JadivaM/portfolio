@@ -24,27 +24,6 @@
   background-color: #333;
 }
 
-.logo-title-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 4%;
-}
-
-.logo-title {
-  font-family: 'Mesmer-Regular';
-  font-size: 3rem;
-  text-shadow: -1px -1px 0 #fff,
-  3px 2px 0 #fff,
-  2px 3px 0 #fff,
-  2px 2px 0 #fff;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  padding-top: 3%;
-}
 
 .navbar-container {
   width: 100vw;
@@ -160,18 +139,21 @@
   height: 100%;
 }
 
-.dropdown-search-icon-button {
+.dropdown-search-icon-button, .small-searchbar-icon-button {
   display: inline-block;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
-  background-color: #BE2021;
   border: none;
   width: 64px;
   height: 100%;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.dropdown-search-icon-button {
+  background-color: #BE2021;
 }
 
 .dropdown-search-icon{
@@ -245,6 +227,10 @@
   line-height: 2;
 }
 
+.project-card-title:hover {
+  text-decoration: underline;
+}
+
 .project-card-category, .project-card-location {
   font-family: 'Pragmatica-Light';
   font-weight: 800;
@@ -272,4 +258,96 @@
   top: 8px;
   right: 0;
   bottom: 8px;
+}
+
+.small-searchbar-main-container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  border-radius: 5px;
+  box-shadow: -1px -1px 0 #eeeeef,
+  1px 1px 0 #eeeeef,
+  1px 1px 0 #eeeeef,
+  1px 1px 0 #eeeeef;
+}
+
+.small-searchbar-icon-button {
+ background-color: #E80E15;
+}
+
+.small-searchbar-placeholder {
+  color: #BBBAC0;
+}
+
+.small-searchbar-placeholder, .small-searchbar-location {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Pragmatica-Light';
+}
+
+
+.small-logo-title-container {
+  width: 30%;
+}
+
+.small-logo-title {
+  font-size: 1.3rem;
+}
+
+.small-logo {
+  width: 30px;
+  height: 30px;
+  padding-top: 15px;
+}
+
+.logo-title-container, .small-logo-title-container  {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.logo-title-container {
+  width: 100%;
+}
+
+.logo-title, .small-logo-title {
+  font-family: 'Mesmer-Regular';
+  text-shadow: -1px -1px 0 #fff,
+  3px 2px 0 #fff,
+  2px 3px 0 #fff,
+  2px 2px 0 #fff;
+}
+
+.logo-title {
+  font-size: 3rem;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding-top: 3%;
+}
+
+.all-projects-nav-container {
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  position: static;
+  z-index: 10;
+  padding-top: 10px;
+}
+
+.all-projects-logo-container {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: auto;
+}
+
+.all-projects-searchbar-container {
+  padding-left: 5%;
 }
