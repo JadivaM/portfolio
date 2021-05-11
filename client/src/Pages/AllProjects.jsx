@@ -6,7 +6,7 @@ const AllProjects = () => {
     return (
         <>
             <AllProjectsPageNavbar />
-             <p>All Results</p>
+             <p className="all-projects-title">All Results</p>
              <div>
                  <AllProjectCards />
              </div>
