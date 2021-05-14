@@ -1,31 +1,26 @@
 import React from 'react';
-import AssignmentIcon from '@material-ui/icons/Assignment';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import WorkIcon from '@material-ui/icons/Work';
-import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import GroupAddIcon from '@material-ui/icons/GroupAdd';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import {Link} from 'react-router-dom';
 
 const BottomNav = () => {
     return (
         <div className="bottom-nav-container">
             <ul className="bottom-nav-list-items">
+            <Link to="/projects" style={{color: '#fff', textDecoration: 'none'}}>
                 <li className="bottom-nav-link">
                 <WorkIcon fontSize="small" className="bottom-nav-icon" />
-                    Projects
+                    Projects       
                 </li>
-                <li className="bottom-nav-link">
-                <AssignmentIcon fontSize="small" className="bottom-nav-icon" />
-                    Resume
-                </li>
+                </Link>
+                <Link to="/about" style={{color: '#fff', textDecoration: 'none'}}>
                 <li className="bottom-nav-link">
                 <AssignmentIndIcon fontSize="small" className="bottom-nav-icon" />
                     About
                 </li>
-                <li className="bottom-nav-link">
-                <QuestionAnswerIcon fontSize="small" className="bottom-nav-icon" />
-                    Contact
-                </li>
+                </Link>
                 <li className="bottom-nav-link connect-dropdown-nav">
                 <GroupAddIcon fontSize="small" className="bottom-nav-icon" />
                     Connect

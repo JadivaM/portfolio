@@ -5,15 +5,16 @@ const Navbar = () => {
     return (
         <div className="navbar-container">
             <ul className="navbar-list-links">
-                <li className="navbar-link">
-                    Write a Review
+                <Link to="/projects" style={{color: '#fff', textDecoration: 'none'}}>
+                <li id="navbar-link">
+                    View all projects
                 </li>
-                <li className="navbar-link">
-                    Contact
+                </Link>
+                <Link to="/about" style={{color: '#fff', textDecoration: 'none'}}>
+                <li id="navbar-link">
+                    About me
                 </li>
-                <li className="navbar-link">
-                    About
-                </li>
+                </Link>
             </ul>
             <div className="right-navbar-buttons-container">
                     <ul className="navbar-buttons-list">
