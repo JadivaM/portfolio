@@ -35,9 +35,6 @@ const AllProjectCards = () => {
         <img className="all-projects-card-stars" src={yelpstars} alt="red stars rating the project"/>
          <p className="all-projects-card-category">{project.filters}</p>
          <p className="all-projects-card-info">{project.info}</p>
-        {/* <p className="all-projects-card-location">
-         {project.location}
-        </p> */}
         <div className="all-projects-card-view-website-container">
           <Link to={{pathname: `${project.link}`}} target="_blank" style={{textDecoration: 'none', color: '#000'}}>
                     <p className="all-projects-card-view-website-button">
