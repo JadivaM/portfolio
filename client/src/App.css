@@ -11,6 +11,11 @@
   src: url(./Fonts/Mesmer-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url(./Fonts/Poppins-Black.otf);
+}
+
 .body, html {
   padding: 0;
   margin: 0;
@@ -477,4 +482,82 @@ padding-right: 20px;
 
 .all-projects-card-view-website-caption {
   color: #000
+}
+
+.about-me-name-header {
+  font-family: 'Poppins-Black';
+  font-weight: 900;
+  font-size: 3rem;
+  color: #2B273D;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.experience-header {
+  margin-block-start: 0;
+}
+
+.about-me-text, .experience-header, .skills-with-checkmark {
+  font-family: 'Pragmatica-Light';
+  font-weight: bolder;
+}
+
+.about-me-text {
+  line-height: 1.4;
+}
+
+.about-me-page-container {
+  margin-left: 250px;
+  width: 50vw;
+  color: rgba(43,39,60,1);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+}
+
+.skills-with-checkmark {
+  padding-left: 15px;
+}
+
+.checkmark-icon {
+  color: #05A882;
+  padding-bottom: 2px;
+}
+
+.checkmark-icon, .about-me-button-icons {
+  vertical-align: middle;
+}
+
+
+.about-me-connect-links {
+  display: flex;
+}
+
+.about-me-linkedin, .about-me-github {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding: 10px 24px 8px;
+  margin-right: 10px;
+  display: inline-block; 
+  width: 80px;
+}
+.about-me-github  {
+  border: #b6b5b5 1px solid;
+}
+
+.about-me-linkedin {
+  color: #fff;
+  background-color: #e80e15f3;
+  cursor: pointer;
+}
+
+.about-me-github:hover{
+  background-color: #cac9c9e7;
+  transition: 0.6s;
+  cursor: pointer;
 }
