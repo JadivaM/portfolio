@@ -21,11 +21,11 @@ const BottomNav = () => {
                     About
                 </li>
                 </Link>
-                <li className="bottom-nav-link connect-dropdown-nav">
+                {/* <li className="bottom-nav-link connect-dropdown-nav">
                 <GroupAddIcon fontSize="small" className="bottom-nav-icon" />
                     Connect
                 <ArrowDropDownIcon fontSize="small" className="bottom-nav-icon"/>
-                </li>
+                </li> */}
             </ul>
         </div>
     )
