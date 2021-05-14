@@ -14,6 +14,9 @@ const SmallSearchbar = () => {
                 <Link to="/about" style={{textDecoration: 'none', color: "#000"}}>
                 <p className="dropdown-link">About</p>
                 </Link>
+                <Link to="/projects" style={{textDecoration: 'none', color: "#000"}}>
+                <p className="dropdown-link">Projects</p>
+                </Link>
                 </div>
                 </div>
                 <div className="dropdown-second-container">
