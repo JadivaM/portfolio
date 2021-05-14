@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchIcon from '@material-ui/icons/Search';
+import {Link} from 'react-router-dom';
 
 const SmallSearchbar = () => {
     return (
@@ -7,7 +8,12 @@ const SmallSearchbar = () => {
                 <div className="dropdown-first-container">
                 <span className="small-searchbar-placeholder">resume, projects, about...</span>
                 <div className="dropdown-content">
-                <p>Hello World!</p>
+                <Link to="/" style={{textDecoration: 'none', color: "#000"}}>
+                <p className="dropdown-link">Home</p>
+                </Link>
+                <Link to="/about" style={{textDecoration: 'none', color: "#000"}}>
+                <p className="dropdown-link">About</p>
+                </Link>
                 </div>
                 </div>
                 <div className="dropdown-second-container">
