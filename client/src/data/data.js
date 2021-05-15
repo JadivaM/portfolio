@@ -2,6 +2,7 @@ import secondappinion from '../dataImages/second-appinion/second-appinion-1.png'
 import gitsearch from '../dataImages/gitsearch/gitsearch-1.png';
 import handmade from '../dataImages/handmade-studio/handmade-1.png';
 import turntable from '../dataImages/turntable-gigs/turntable-1.png';
+import webscraper from '../dataImages/webscraper/webscraper-img.png';
 
 const Projects =
 [
