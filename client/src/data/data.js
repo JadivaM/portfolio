@@ -14,15 +14,15 @@ const Projects =
     //     "info": "Hangry Recipes is a React project that allows users to search for recipes while interacting with The Meal DB API. Once they search for their desired category they are able to click into the specific recipe and view a photo along with the recipe. A user is also able to receive and view a random recipe if they are indecisive and unable to decide whay they would like by clicking on the 'Choose for me' button.",
     //     "location": "Miami, FL"
     // },
-    // {
-    //     "id": "2",
-    //     "name": "GitSearch",
-    //     "desc": "Github",
-    //     "photo": gitsearch,
-    //     "info": "MERN stack site interacting with the Github API that allows users to create an account, log in, and save github users to their profile. A user is able to search for users on Github on the site and once they find the desired Github and click on save, they will also begin following the user on Github. The project is equipped with SendGrid for password reset and Sweet Alert for alerts once a user confirming when a user is saved or deleted.",
-    //     "location": "Miami, FL",
-    //     "link": "https://gitsearch-jadiva.herokuapp.com/welcome"
-    // },
+    {
+        "id": "2",
+        "name": "GitSearch",
+        "desc": "Github",
+        "photo": gitsearch,
+        "info": "MERN stack site interacting with the Github API that allows users to create an account, log in, and save github users to their profile. A user is able to search for users on Github on the site and once they find the desired user and click on save, they will also begin following the user on Github. The project is equipped with SendGrid for password reset and Sweet Alert for alerts once a user confirming when a user is saved or deleted.",
+        "location": "Miami, FL",
+        "link": "https://gitsearch-jadiva.herokuapp.com/welcome"
+    },
     {
         "id": "3",
         "name": "Second Appinion",
