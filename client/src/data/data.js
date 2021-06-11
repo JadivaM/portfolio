@@ -3,6 +3,7 @@ import gitsearch from '../dataImages/gitsearch/gitsearch-1.png';
 import handmade from '../dataImages/handmade-studio/handmade-1.png';
 import turntable from '../dataImages/turntable-gigs/turntable-1.png';
 import webscraper from '../dataImages/webscraper/webscraper-img.png';
+import handmadestudio from '../dataImages/handmade-studio/handmadestudio.png';
 
 const Projects =
 [
@@ -40,14 +41,16 @@ const Projects =
     //     "info": "MERN stack application that connects DJs and venues in one place. It allows DJs to view available gigs, apply for the local gigs, view venue profiles, upload music, and upload images and videos. It allows venues to view local DJs, listen to the DJs music, and upload images and videos.",
     //     "location": "Miami, FL"
     // },
-    // {
-    //     "id": "5",
-    //     "name": "Handmade Studio",
-    //     "desc": "Ecommerce",
-    //     "photo": handmade,
-    //     "info": "Handmade Studio is a React site that interacts with the Commerce.js API. It allows users to search for items, add them to cart, edit the items in their cart, and complete the purchase of their desired items. Once they checkout, both parties (customer and shop owner) will receive an email confirming the transaction with the necessary information.",
-    //     "location": "Miami, FL"
-    // },
+    {
+        "id": "5",
+        "name": "Handmade Studio",
+        "desc": "Ecommerce",
+        "photo": handmade,
+        "info": "Handmade Studio is a React site that interacts with the Commerce.js API. It allows users to search for items, add them to cart, edit the items in their cart, and complete the purchase of their desired items. This project is being transformed to be mobile responsive.",
+        "location": "Miami, FL",
+        "link": "https://handmadestudio.netlify.app/",
+        "photo": handmadestudio
+    },
     {
         "id": "6",
         "name": "Hacker News Web Scraper",
