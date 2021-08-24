@@ -1,20 +1,21 @@
 import secondappinion from '../dataImages/second-appinion/second-appinion-1.png';
 import gitsearch from '../dataImages/gitsearch/gitsearch-1.png';
 import handmade from '../dataImages/handmade-studio/handmade-1.png';
-import turntable from '../dataImages/turntable-gigs/turntable-1.png';
+import bcss from '../dataImages/BCSS/bcss.png';
 import webscraper from '../dataImages/webscraper/webscraper-img.png';
 import handmadestudio from '../dataImages/handmade-studio/handmadestudio.png';
 
 const Projects =
 [
-    // {
-    //     "id": "1",
-    //     "name": "Hangry Recipes",
-    //     "desc":"Recipes",
-    //     "photo": "./1.png",
-    //     "info": "Hangry Recipes is a React project that allows users to search for recipes while interacting with The Meal DB API. Once they search for their desired category they are able to click into the specific recipe and view a photo along with the recipe. A user is also able to receive and view a random recipe if they are indecisive and unable to decide whay they would like by clicking on the 'Choose for me' button.",
-    //     "location": "Miami, FL"
-    // },
+    {
+        "id": "1",
+        "name": "Black Cat Sound System",
+        "desc":"Private business",
+        "photo": bcss,
+        "info": "Black Cat Sound System is a business owned by two bestfriends passionate about music. They expressed wanting a simple and sleek website that is responsive across devices and allows users to contact them easily through the webiste. The website was built using React, Javascript, Emailjs, CSS, and Material-UI",
+        "location": "Miami, FL",
+        "link": "https://blackcatsoundsystem.netlify.app/"
+    },
     {
         "id": "2",
         "name": "GitSearch",
