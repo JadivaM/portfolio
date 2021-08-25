@@ -25,6 +25,7 @@
 
 .home-page-hero-image {
   height: 80vh;
+  width: 100vw;
   background-size: cover;
   background-position: center;
   background-color: #333;
@@ -241,7 +242,7 @@ padding-right: 20px;
 }
 
 .project-cards {
-  width: 300px;
+  width: 25%;
   height: auto;
   margin: 10px;
 }
@@ -392,10 +393,11 @@ padding-right: 20px;
 
 .all-projects-cards {
   width: 100%;
-  height: 300px;
+  height: auto;
   margin: 0 0 20px 0;
   transition: 0.3s;
 }
+
 
 .all-projects-cards:hover {
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
@@ -446,7 +448,7 @@ padding-right: 20px;
 }
 
 .all-projects-card-category, .all-projects-card-info {
-  color: rgba(117,114,128,1);
+  color: rgb(90, 88, 97);
 }
 
 .all-projects-card-category, .all-projects-card-info, .all-projects-card-view-website-caption {
