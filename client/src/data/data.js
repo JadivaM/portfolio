@@ -12,7 +12,7 @@ const Projects =
         "name": "Black Cat Sound System",
         "desc":"Private business",
         "photo": bcss,
-        "info": "Black Cat Sound System is a business owned by two bestfriends passionate about music. They expressed wanting a simple and sleek website that is responsive across devices and allows users to contact them easily through the webiste. The website was built using React, Javascript, Emailjs, CSS, and Material-UI",
+        "info": "Black Cat Sound System is a business owned by two bestfriends passionate about music. They expressed wanting a simple website that is responsive across devices and allows users to contact them easily through the website. The website was built using React, Javascript, Emailjs, CSS, and Material-UI. Along with React Toastify to notify the user once the message has been sent.",
         "location": "Miami, FL",
         "link": "https://blackcatsoundsystem.netlify.app/"
     },
@@ -47,7 +47,7 @@ const Projects =
         "name": "Handmade Studio",
         "desc": "Ecommerce",
         "photo": handmade,
-        "info": "Handmade Studio is a React site that interacts with the Commerce.js API. It allows users to search for items, add them to cart, edit the items in their cart, and complete the purchase of their desired items. This project is being transformed to be mobile responsive.",
+        "info": "Handmade Studio is a React site that interacts with the Commerce.js and Stripe API along with React Toastify to notify the user once an item has been added to the cart. It allows users to search for items, add them to cart, edit the quantity of items in their cart, and complete the purchase of their desired items. This project is still in progress as it is currently being worked on to be mobile responsive.",
         "location": "Miami, FL",
         "link": "https://handmadestudio.netlify.app/",
         "photo": handmadestudio
